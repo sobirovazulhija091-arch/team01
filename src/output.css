@@ -194,11 +194,23 @@
   .left-\[1200px\] {
     left: 1200px;
   }
+  .m-auto {
+    margin: auto;
+  }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
+  .mt-3 {
+    margin-top: calc(var(--spacing) * 3);
+  }
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
   }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
+  }
+  .mt-32 {
+    margin-top: calc(var(--spacing) * 32);
   }
   .flex {
     display: flex;
@@ -248,8 +260,23 @@
   .w-\[12px\] {
     width: 12px;
   }
+  .w-\[60\%\] {
+    width: 60%;
+  }
+  .w-\[70\%\] {
+    width: 70%;
+  }
+  .w-\[70\] {
+    width: 70;
+  }
   .w-\[72px\] {
     width: 72px;
+  }
+  .w-\[80\%\] {
+    width: 80%;
+  }
+  .w-\[80\] {
+    width: 80;
   }
   .w-\[90px\] {
     width: 90px;
@@ -301,6 +328,12 @@
   }
   .gap-1\.5 {
     gap: calc(var(--spacing) * 1.5);
+  }
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
+  }
+  .gap-2\.5 {
+    gap: calc(var(--spacing) * 2.5);
   }
   .gap-3 {
     gap: calc(var(--spacing) * 3);
