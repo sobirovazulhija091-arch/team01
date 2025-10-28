@@ -199,6 +199,9 @@
   .mt-40 {
     margin-top: calc(var(--spacing) * 40);
   }
+  .mt-\[5\] {
+    margin-top: 5;
+  }
   .mt-\[30px\] {
     margin-top: 30px;
   }
@@ -210,6 +213,18 @@
   }
   .mt-\[80px\] {
     margin-top: 80px;
+  }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
+  .mb-2\.5 {
+    margin-bottom: calc(var(--spacing) * 2.5);
+  }
+  .mb-3 {
+    margin-bottom: calc(var(--spacing) * 3);
+  }
+  .mb-4 {
+    margin-bottom: calc(var(--spacing) * 4);
   }
   .flex {
     display: flex;
@@ -244,8 +259,20 @@
   .h-\[225px\] {
     height: 225px;
   }
+  .h-\[250px\] {
+    height: 250px;
+  }
+  .h-\[256px\] {
+    height: 256px;
+  }
+  .h-\[385px\] {
+    height: 385px;
+  }
   .h-\[400px\] {
     height: 400px;
+  }
+  .h-\[454px\] {
+    height: 454px;
   }
   .h-\[500px\] {
     height: 500px;
@@ -256,17 +283,26 @@
   .w-32 {
     width: calc(var(--spacing) * 32);
   }
+  .w-\[2\] {
+    width: 2;
+  }
   .w-\[70\%\] {
     width: 70%;
   }
   .w-\[72px\] {
     width: 72px;
   }
+  .w-\[80\%\] {
+    width: 80%;
+  }
   .w-\[85\%\] {
     width: 85%;
   }
   .w-\[90px\] {
     width: 90px;
+  }
+  .w-\[100\] {
+    width: 100;
   }
   .w-\[170px\] {
     width: 170px;
@@ -282,6 +318,9 @@
   }
   .w-\[268px\] {
     width: 268px;
+  }
+  .w-\[276px\] {
+    width: 276px;
   }
   .w-\[541px\] {
     width: 541px;
@@ -398,6 +437,12 @@
   .p-4 {
     padding: calc(var(--spacing) * 4);
   }
+  .pt-10 {
+    padding-top: calc(var(--spacing) * 10);
+  }
+  .pt-20 {
+    padding-top: calc(var(--spacing) * 20);
+  }
   .text-center {
     text-align: center;
   }
@@ -415,6 +460,12 @@
   }
   .text-\[7px\] {
     font-size: 7px;
+  }
+  .text-\[10px\] {
+    font-size: 10px;
+  }
+  .text-\[13px\] {
+    font-size: 13px;
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
@@ -443,6 +494,9 @@
   }
   .opacity-\[0\.7\] {
     opacity: 0.7;
+  }
+  .opacity-\[0\.8\] {
+    opacity: 0.8;
   }
   .shadow-2xl {
     --tw-shadow: 0 25px 50px -12px var(--tw-shadow-color, rgb(0 0 0 / 0.25));
